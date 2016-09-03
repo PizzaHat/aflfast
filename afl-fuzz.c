@@ -7773,7 +7773,7 @@ int main(int argc, char** argv) {
   /* Allocate memory for hashmaps */
   cksum2paths = kh_init(32);
 
-  SAYF(cCYA "afl-fuzz " cBRI VERSION cRST " by <lcamtuf@google.com>. Power schedules by <marcel.boehme@acm.org>\n");
+  SAYF(cCYA "afl-fast " cBRI VERSION cRST " by <lcamtuf@google.com>. Power schedules by <marcel.boehme@acm.org>\n");
 
   doc_path = access(DOC_PATH, F_OK) ? "docs" : DOC_PATH;
 
